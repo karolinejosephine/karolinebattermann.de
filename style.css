@@ -197,3 +197,14 @@ em{font-style:italic}
 .g-item figcaption{color:var(--pink-ink)}
 .nav-name::after{content:"."; color:var(--pink)}
 .footer a:hover{color:var(--pink-light)}
+
+/* Rechtliches */
+.footer .legal{text-transform:none; letter-spacing:.04em; opacity:.75}
+.footer .legal a:hover{opacity:1}
+.legal-page .nav{position:sticky}
+.legal-page .nav .link-arrow{font-size:.68rem}
+.legal-main{max-width:44rem; padding:clamp(3rem,7vw,6rem) var(--pad) clamp(4rem,8vw,7rem); margin:0}
+.legal-main h1{font-size:clamp(2.4rem,5vw,3.8rem); margin-bottom:2.5rem; overflow-wrap:break-word}
+.legal-main h2{font-size:1.15rem; font-weight:400; letter-spacing:0; margin:2.25rem 0 .6rem}
+.legal-main p{color:#3e3a34; margin:0 0 1rem; font-size:.95rem}
+.legal-main a{color:var(--pink-ink); overflow-wrap:anywhere}
